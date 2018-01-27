@@ -1,0 +1,295 @@
+.header-cont {
+	width: 100%;
+	margin: auto auto;
+}
+
+.headerstats {
+	margin: auto auto;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 1.3em;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	font-weight: 300;
+}
+
+.headerstats span {
+	margin-top: 10px;
+	display: block;
+}
+
+.headerstats .bold {
+	font-weight: 700;
+	display: inline;
+}
+
+.path {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -120px;
+	padding-bottom: 80px;
+}
+
+.path .title {
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.box-cont {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	position: relative;
+	box-shadow: 0px 1px 5px rgba(71, 86, 87, 0.6);
+	transition: box-shadow 0.3s ease-in-out;
+	border-radius: 4px;
+	background: #FFFFFF;
+	background-repeat: no-repeat no-repeat !important;
+	background-position: top right;
+}
+
+.box-cont.beginner {
+	background-image: url('../images/beginner.png');
+}
+
+.box-cont.investor {
+	background-image: url('../images/investor.png');
+}
+
+.box-cont.developer {
+	background-image: url('../images/developer.png');
+}
+
+.box-cont:hover {
+	box-shadow: 0px 1px 20px rgba(71, 86, 87, 0.6);
+}
+
+.box-text {
+	width: 85%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	height: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box-text .pathtype {
+	font-size: 1.3em;
+	font-weight: 600;
+	display: block;
+}
+
+.box-text .recommendedlist {
+	list-style: none;
+	padding: 0;
+	list-style-type: none;
+	margin-bottom: 5px;
+}
+
+.recommendedlist .recommendeditem {
+	font-size: 0.9em;
+	padding-bottom: 15px;
+}
+
+.recommendedlist .recommendeditem:before {
+	content: ' ';
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	border-bottom: 1px solid #d4d7dc;
+	margin-bottom: 15px;
+}
+
+.recommendedlist .recommendeditem:first-child:before {
+	content: ' ';
+	display: block;
+	width: 100%;
+	margin-left: 0;
+	border-bottom: 1px solid #d4d7dc;
+	margin-bottom: 15px;
+}
+
+.recommendedlist .recommendeditem:last-child {
+	padding-bottom: 0px;
+}
+
+.recommendeditem .duration {
+	font-weight: 700;
+	color: #0a74ef;
+	font-size: 0.7em;
+	right: 10%;
+	position: absolute;
+	margin-top: -20px;
+	height: 20px;
+	width: 22px;
+	background-repeat: no-repeat no-repeat !important;
+	background: url('../images/duration.png');
+}
+
+.recommendeditem .duration span {
+	position: absolute;
+	left: 10px;
+}
+
+.recommendeditem .duration:hover {
+	cursor: pointer;
+}
+
+.slatestrip {
+	background: #303235;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.slatestrip .text {
+	color: #FFFFFF;
+	font-weight: 300;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.slatestrip .max-width {
+	margin: auto auto;
+	width: 100%;
+}
+
+.slatestrip .button {
+	color: #FFFFFF;
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 4px;
+	border: 1px solid #FFFFFF;
+	font-size: 0.9em;
+}
+
+.slatestrip .button:hover {
+	background: #FFFFFF;
+	color: #303235;
+}
+
+.slatestrip .buttonholder {
+	text-align: center;
+}
+
+.mostpopular .title {
+	text-align: center;
+	width: 100%;
+}
+
+.mostpopular .title h4 {
+	color: #1084fe;
+	font-size: 0.9em;
+}
+
+.mostpopular .title h2 {
+	font-weight: 400;
+	margin-top: -20px;
+}
+
+.mostpopular {
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+.mostpopular .max-width {
+	width: 100%;
+	margin: auto auto;
+}
+
+.mostpopular .box-cont.general {
+	background: none;
+	border-left: 5px solid #1084fe;
+}
+
+.mostpopular .box-cont.developer {
+	background: none;
+	border-left: 5px solid #c42c2c;
+}
+
+.mostpopular .box-cont.investor {
+	background: none;
+	border-left: 5px solid #30a982;
+}
+
+.mostpopular .box-text {
+	width: 95%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.mostpopular .type {
+	font-size: 0.75em;
+	font-weight: 700;
+	color: #717a8a;
+	display: block;
+}
+
+.mostpopular .title {
+	font-size: 1.1em;
+	line-height: 30px;
+}
+
+.mostpopular .text {
+	font-size: 0.9em;
+	color: #717a8a;
+}
+
+
+.mostpopular .duration {
+	font-weight: 700;
+	color: #0a74ef;
+	font-size: 0.7em;
+	height: 30px;
+	width: 22px;
+	background-repeat: no-repeat no-repeat !important;
+	background: url('../images/duration.png');
+}
+
+.mostpopular .duration span {
+	position: absolute;
+	left: 17px;
+	margin-top: -1px;
+}
+
+.mostpopular .duration:hover {
+	cursor: pointer;
+}
+
+.mostpopular .joinbtn {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 0.9em;
+	color: #1084fe;
+	font-weight: 700;
+	border: 1px solid #1084fe;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.mostpopular .joinbtn:hover {
+	color: #FFFFFF;
+	background: #1084fe;
+}
+
+@media only screen and (max-width: 767px) {
+	.slatestrip .buttonholder {
+	margin-top: 35px;
+	}
+	
+	.headerstats {
+		font-size: 1em;
+	}
+	
+	
+}

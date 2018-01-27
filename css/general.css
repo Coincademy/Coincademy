@@ -1,0 +1,165 @@
+/* GENERAL STYLING (FONT) */
+
+body, .pure-g [class*=pure-u] {
+	font-family: 'Roboto', sans-serif !important;
+	color: #303235;
+}
+
+.max-width {
+	max-width: 1024px;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+	outline: none;
+}
+
+header.pure-g {
+	background: #0a74ef;
+	background: -webkit-linear-gradient(to bottom, #0a74ef, #045edb); 
+	background: linear-gradient(to bottom, #0a74ef, #045edb);
+}
+
+/* HEADER BG BLUE */
+
+header.pure-g {
+	background: #0a74ef;
+	background: -webkit-linear-gradient(to bottom, #0a74ef, #045edb); 
+	background: linear-gradient(to bottom, #0a74ef, #045edb);
+}
+
+/* NAV STYLING */
+
+.menu-cont {
+	width: 100%;
+	margin: auto auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+label.toggle {
+	display: none;
+	float: right; 
+	margin-right: 20px;
+	font-size: 1.5em;
+}
+
+input.toggle {
+	display: none;
+}
+
+.menu-bg {
+	background: #0a74ef;
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.35);
+}
+
+.pure-menu-heading {
+	font-weight: 700;
+	color: white;
+}
+
+.pure-menu-list {
+	float: right;
+}
+
+.pure-menu-link {
+	color: white;
+	font-size: 0.9em;
+	opacity: 0.8;
+	margin-left: 1px;
+}
+
+.pure-menu-link:hover {
+	font-weight: 700;
+	background: none;
+	opacity: 1;
+	margin-left: -0.5px;
+}
+
+.pure-menu-link:focus {
+	background: none;
+}
+
+nav .active {
+	opacity: 1;
+	font-weight: 700;
+}
+
+/* FOOTER STYLING */
+
+footer {
+	background: #0665e2;
+	color: white !Important;
+}
+
+.footer-holder {
+	width: 100%;
+	margin: auto auto;
+	margin-top: 25px;
+}
+
+.footer-holder .pure-menu-list {
+	float: none;
+}
+
+.footer-holder .menu-holder {
+	padding: 5px;
+}
+
+.footerend {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footerend span {
+	color: #FFFFFF !important;
+	font-size: 0.8em;
+}
+
+.footerend .copyright {
+	text-align: center;
+}
+
+.footerend .socialicons {
+	text-align: right;
+}
+
+/* MOBILE (NAV AND FOOTER) */
+
+@media only screen and (max-width: 767px) {
+	.footerend .socialicons, .footerend .copyright, .footerend .footerlogo {
+		text-align: center !important;
+	}
+	
+	.footerend .socialicons {
+		padding-top: 20px;
+	}
+	
+	.footer-holder .menu-holder {
+		text-align: center;
+	}
+	
+	.menu-cont .pure-menu-list {
+		display: none !Important;
+		float: none !important;
+		text-align: center;
+		background: #0a74ef;
+	}
+	
+	.menu-cont .pure-menu-item {
+		display: block !important;
+	}
+	
+	label.toggle {
+		display: block;
+		color: white;
+		cursor: pointer; 
+	}
+	
+	[id^=drop]:checked + .pure-menu-list { display: block !important; }
+	
+}
